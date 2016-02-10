@@ -9,7 +9,7 @@
 **
 */
 
-/* <dtml-with base_properties> */
+
 
 /* Adjusting a few basic Plone classes */
 
@@ -18,9 +18,7 @@
     width: 100%;
 }
 
-.listing th {
-    font-size: &dtml-fontSmallSize;;
-}
+
 
 .listing .discreet {
     text-align: right;
@@ -61,7 +59,7 @@
 /* Comment */
 
 .boardComment {
-    border: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
+   
     margin-bottom: 1em;
     position: relative;
 }
@@ -75,9 +73,6 @@
 }
 
 .boardCommentDetails {
-    border: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
-    border-style: none none &dtml-borderStyle; none;
-    background-color: &dtml-globalBackgroundColor;;
     padding: 0.5em 1em;
     font-size: 90%;
 }
@@ -136,7 +131,6 @@
 }
 
 .state-rejected {
-    color: &dtml-discreetColor; !important;
 }
 
 /* Moderation */
@@ -172,4 +166,4 @@
     display: none;
 }
 
-/* </dtml-with> */
+
